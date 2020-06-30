@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    color: wheat;
+    background-color: #000000;
+    background: url(images/pocket-watch-2569573_1920.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+
+.hero{
+    margin-top: 20vh;
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: -0.05em;
+    font-family: 'Revalia', cursive;
+}
+
+.thumbnail{
+    height: 8em;
+    width: 15em;
+}
