@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		/>
+        <title>Document</title>
+        <style>
+            /* xs */
+            /* eefectively @media (min-width: 0px) */
+            .green{
+                background-color: aquamarine;
+                height: 100vh;
+            }
+
+            /* sm */
+            @media (min-width: 576px) and (max-width: 767px) {
+                .green{
+                    background-color: cadetblue;
+                }
+            }
+
+            /* md */
+            @media (min-width: 768px) and (max-width: 991px) {
+                .green{
+                    background-color: beige;
+                }
+            }
+
+            /* lg */
+            @media (min-width: 992px) and (max-width: 1199px) {
+                .green{
+                    background-color: lightcoral;
+                }
+            }
+
+            /* xl */
+            @media (min-width: 1200px) {
+                .green{
+                    background-color: lightsteelblue;
+                }
+            }
+
+        </style>
+	</head>
+	<body>
+        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, similique.</h5>
+        <div class="container green">Helo</div>
+    </body>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</html>
