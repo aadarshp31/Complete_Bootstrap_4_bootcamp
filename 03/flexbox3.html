@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		/>
+		<title>Bootstrap Grid</title>
+		<style>
+			body {
+				background-color: black;
+                color: white;
+			}
+			.con {
+				background-color: lightsalmon;
+				height: 100vh;
+			}
+			.colstyle {
+				background-color: teal;
+				border: 1px solid #ffffff;
+			}
+			.rowHeight {
+				height: 150px;
+				background-color: crimson;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container con">
+            <div class="row">
+                <div class="col bg-primary">Superman</div>
+                <div class="col bg-secondary">Batman</div>
+                <div class="col order-first bg-danger">SpiderMan</div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4 bg-primary">Element 1</div>
+                <div class="col-md-4 offset-md-2 bg-secondary">Element 2</div>
+                <!-- <div class="col order-first bg-danger">Element 3</div> -->
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-9 push-md-3 bg-primary">Push-Pull Element 1</div>
+                <div class="col-md-3 pull-md-3 bg-secondary">Push-Pull Element 2</div>
+            </div>
+        </div>
+	</body>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</html>
