@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: wheat;
+    background: url(./Images/crop-person-working-on-laptop-at-table-with-smartphone-and-4195501.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'MuseoModerno', cursive;
+}
+
+.rowHeight{
+    height: 100vh;
+}
+
+img{
+    height: 12em;
+    width: 25em;
+}
