@@ -1,0 +1,8 @@
+body{
+    background: linear-gradient(0deg, rgba(100, 80, 100, 0.4), rgba(100, 80, 100, 0.4)),urL(./img/manhattan-407703_1920.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    margin-top: 40vh;
+    color: #ffffff;
+}
